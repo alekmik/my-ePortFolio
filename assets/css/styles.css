@@ -1,6 +1,7 @@
 :root {
   --primary-color: #fff;
   --secondary-color: #001240;
+  --third-color: #ffd961;
   --fontText: "Geneva", sans-serif;
 }
 
@@ -57,12 +58,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 230px;
   background: url("../img/coding-person.webp");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 550px;
-  width: 550px;
+  height: 300px;
+  width: 300px;
   box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
   animation: animate 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -79,12 +81,6 @@ body {
   }
 }
 
-.coding-person {
-  width: 50%;
-  border-radius: 50%;
-  border: #fff bold;
-}
-
 .message-bienvenue {
   grid-area: 1 / 2 / 2 / 3;
   display: flex;
@@ -96,6 +92,10 @@ body {
 .message-bienvenue h1 {
   font-family: var(--fontText);
   font-size: 2em;
+}
+
+.my-name {
+  color: var(--third-color);
 }
 
 .message-bienvenue h2 {
@@ -114,6 +114,7 @@ body {
   text-align: center;
   text-decoration: none;
   width: 100%;
+  transition: box-shadow 0.25s;
 }
 
 .button-style:hover {
