@@ -13,21 +13,22 @@
       src="https://kit.fontawesome.com/4fa5450d7b.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="./script.js"></script>
     <title>Qui suis-je ? - Alek Mikolajek</title>
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" class="logo"
+      <a href="/index.html" class="logo"
         ><img src="./assets/img/logo-alek-portfoliO-big-rbg.png" alt="logo"
       /></a>
       <nav class="navbarLink">
-        <a href="./presentation.html">Qui suis-je ?</a>
-        <a href="./projet.html">Mes projets</a>
-        <a href="./formulaire-contact.html">Contact</a>
+        <a href="/presentation.html" class="style-nav-links">Qui suis-je ?</a>
+        <a href="/projet.html" class="style-nav-links">Mes projets</a>
+        <!-- <a href="./formulaire-contact.html">Contact</a> -->
       </nav>
     </header>
     <section class="personal-presentation">
-      <div class="infos">
+      <div class="infos card-style">
         <h2>Résumé</h2>
         <p>
           💻 Développeur web PHP en formation à la Wild Code School. Je suis
@@ -41,37 +42,64 @@
           l'échange de connaissances au-delà de la programmation. 🚀
         </p>
       </div>
-      <div class="competences">
+      <div class="competences card-style">
         <h2>Mes compétences</h2>
         <ul>
-          <li><h3>PHP</h3></li>
-          <li><h3>Twig</h3></li>
-          <li><h3>Composer</h3></li>
-          <li><h3>HTML</h3></li>
-          <li><h3>CSS</h3></li>
-          <li><h3>MySQL</h3></li>
-          <li><h3>Git/GitHub</h3></li>
+          <li>
+            <h3><img src="./assets/img/PHP-logo.svg.png" alt="PHP" /></h3>
+          </li>
+          <li><img src="./assets/img/twig-removebg.png" alt="Twig" /></li>
+          <li><img src="./assets/img/composer-logo.png" alt="Twig" /></li>
+          <li>
+            <h3><img src="./assets/img/html-logo.png" alt="HTML" /></h3>
+          </li>
+          <li>
+            <h3><img src="./assets/img/CSS3_logo.png" alt="CSS" /></h3>
+          </li>
+          <li><img src="./assets/img/MySQL.png" alt="MySQL" /></li>
+          <li><img src="./assets/img/Git-logo.png" alt="Git" /></li>
         </ul>
       </div>
-      <div class="exp">
+      <div class="exp card-style">
         <h2>Mes expériences</h2>
-        <h3>Développeur Web - Book Your Media 📙</h3>
-        <i>Décembre 2023</i>
-        <h3>Développeur Web - Checklist Jeux Vidéos 🎮</h3>
-        <i>Novembre 2023</i>
-        <h3>
-          Apprenti Assistant administratif pilotage IT - DIRECT ASSURANCE ♦️
-        </h3>
-        <i>Janvier 2021 - Septembre 2021</i>
-        <h3>Apprenti Chargé Back-Office - LA POSTE SOLUTIONS BUSINESS 📬</h3>
-        <i>Décembre 2019 - Août 2020</i>
-        <h3>
-          Apprenti Assistant de Gestionnaire en Facturation - LA POSTE SOLUTIONS
-          BUSINESS 📬
-        </h3>
-        <i>Novembre 2018 - Novembre 2019</i>
+        <fieldset>
+          <legend>Développement web</legend>
+          <h3>Développeur Web - Book Your Media 📙</h3>
+          <i>Décembre 2023</i>
+          <h3>Développeur Web - Checklist Jeux Vidéos 🎮</h3>
+          <i>Novembre 2023</i>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Alternances pour un diplôme de l'école Ascencia Business School
+          </legend>
+          <h3>
+            Apprenti Assistant administratif pilotage IT -
+            <a href="https://www.direct-assurance.fr/" target="_blank"
+              >DIRECT ASSURANCE</a
+            >
+            ♦️
+          </h3>
+          <i>Janvier 2021 - Septembre 2021</i>
+          <h3>
+            Apprenti Chargé Back-Office -
+            <a href="https://www.laposte.fr/entreprise" target="_blank"
+              >LA POSTE SOLUTIONS BUSINESS</a
+            >
+            📬
+          </h3>
+          <i>Décembre 2019 - Août 2020</i>
+          <h3>
+            Apprenti Assistant de Gestionnaire en Facturation -
+            <a href="https://www.laposte.fr/entreprise" target="_blank"
+              >LA POSTE SOLUTIONS BUSINESS</a
+            >
+            📬
+          </h3>
+          <i>Novembre 2018 - Novembre 2019</i>
+        </fieldset>
       </div>
-      <div class="hobbies">
+      <div class="hobbies card-style">
         <h2>Mes hobbies</h2>
         <ul>
           <li>🎞️ Cinéma</li>
@@ -91,10 +119,16 @@
       </p>
       <div class="social-link">
         <a href="https://www.linkedin.com/in/alekmikolajek/" target="_blank"
-          ><i class="fa-brands fa-linkedin fa-2xl"></i
+          ><i
+            class="fa-brands fa-linkedin fa-2xl fa-bounce"
+            style="--fa-animation-iteration-count: 2"
+          ></i
         ></a>
         <a href="https://github.com/alekmik" target="_blank"
-          ><i class="fa-brands fa-github fa-2xl"></i
+          ><i
+            class="fa-brands fa-github fa-2xl fa-bounce"
+            style="--fa-animation-iteration-count: 2"
+          ></i
         ></a>
       </div>
     </footer>

@@ -13,8 +13,10 @@
       src="https://kit.fontawesome.com/4fa5450d7b.js"
       crossorigin="anonymous"
     ></script>
-    <script>
+    <script defer src="./script.js">
     </script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>Accueil - Alek Mikolajek</title>
   </head>
   <body>
@@ -23,9 +25,9 @@
         ><img src="./assets/img/logo-alek-portfoliO-big-rbg.png" alt="logo"
       /></a>
       <nav class="navbarLink">
-        <a href="./presentation.html">Qui suis-je ?</a>
-        <a href="./projet.html">Mes projets</a>
-        <a href="./contact.html">Contact</a>
+        <a href="/presentation.html" class="style-nav-links">Qui suis-je ?</a>
+        <a href="/projet.html" class="style-nav-links">Mes projets</a>
+        <!-- <a href="./contact.html">Contact</a> -->
       </nav>
     </header>
     <section class="welcome">
@@ -34,7 +36,7 @@
         </div>
       </div>
       <div class="message-bienvenue">
-        <h1>🤝 Bonjour, je suis <span class="my-name">Alek Mikolajek</span></h1>
+        <h1 id="app"></h1>
         <h2>💻 Développeur web junior</h2>
         <h2>📍 France, Région parisienne</h2>
         <a href="./presentation.html">
@@ -48,10 +50,10 @@
       </p>
       <div class="social-link">
         <a href="https://www.linkedin.com/in/alekmikolajek/" target="_blank"
-          ><i class="fa-brands fa-linkedin fa-2xl"></i
+          ><i class="fa-brands fa-linkedin fa-2xl fa-bounce" style="--fa-animation-iteration-count: 2"></i
         ></a>
         <a href="https://github.com/alekmik" target="_blank"
-          ><i class="fa-brands fa-github fa-2xl"></i
+          ><i class="fa-brands fa-github fa-2xl fa-bounce" style="--fa-animation-iteration-count: 2"></i
         ></a>
       </div>
     </footer>

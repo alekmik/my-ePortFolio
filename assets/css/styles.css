@@ -32,7 +32,16 @@ body {
   width: 125px;
 }
 
-.navbarLink a {
+.active {
+  color: #81b3ff;
+  font-size: 1.4em;
+  text-decoration: underline;
+  margin-left: 140px;
+  font-family: var(--fontText);
+  opacity: 1;
+}
+
+.style-nav-links {
   color: var(--primary-color);
   font-size: 1.4em;
   text-decoration: none;
@@ -43,7 +52,7 @@ body {
 }
 
 .navbarLink a:hover {
-  color: var(--third-color);
+  color: #81b3ff;
   opacity: 1;
 }
 
@@ -56,6 +65,7 @@ body {
   margin-top: 250px;
 }
 
+/* Profil animation */
 .photo-profil {
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -98,7 +108,7 @@ body {
 }
 
 .my-name {
-  color: var(--third-color);
+  color: #7fb4ff;
 }
 
 .message-bienvenue h2 {
@@ -141,8 +151,10 @@ body {
   margin-left: 30px;
 }
 
+/* PAGE PRESENTATION */
+
 .personal-presentation {
-  width: 50%;
+  width: 70%;
   color: var(--primary-color);
   margin-top: 150px;
   font-family: var(--fontText);
@@ -151,6 +163,7 @@ body {
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+  font-size: 1.2em;
 }
 
 .personal-presentation h1 {
@@ -166,25 +179,35 @@ body {
   line-height: 2em;
 }
 
+.card-style {
+  margin: 50px;
+  padding: 20px;
+}
+
 .infos h2,
 .competences h2,
 .exp h2,
 .hobbies h2 {
-  margin-top: 70px;
+  /* margin-top: 70px; */
   display: flex;
   justify-content: center;
   font-size: 1.6em;
 }
 
-.competences ul,
+.competences ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
 .hobbies ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
 }
 
-.competences ul {
-  margin-left: 40px;
+.competences ul li {
+  margin-left: 20px;
 }
 
 .competences ul li,
@@ -198,6 +221,22 @@ body {
   margin-top: 50px;
 }
 
+div fieldset {
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 34px;
+  border-color: #81b3ff;
+}
+
+fieldset legend {
+  color: #81b3ff;
+  font-size: larger;
+}
+
+h3 a {
+  color: var(--primary-color);
+}
+
 .link-style {
   text-decoration: none;
   color: var(--primary-color);
@@ -207,11 +246,12 @@ body {
   text-decoration: underline;
 }
 
+/* PAGE PROJET CSS */
+
 .project {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 150px;
 }
 
 .card-content {
@@ -237,7 +277,12 @@ body {
 .card-content li img {
   margin-top: 10px;
   width: auto;
-  height: 40px;
+  height: 50px;
+}
+
+.competences li img {
+  width: auto;
+  height: 80px;
 }
 
 .card-content h1,
