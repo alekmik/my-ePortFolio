@@ -38,10 +38,13 @@ body {
   text-decoration: none;
   margin-left: 140px;
   font-family: var(--fontText);
+  opacity: 0.5;
+  transition: opacity 0.3s;
 }
 
 .navbarLink a:hover {
-  text-decoration: underline;
+  color: var(--third-color);
+  opacity: 1;
 }
 
 .welcome {
@@ -160,7 +163,7 @@ body {
 .hobbies ul,
 .card-content p {
   margin-top: 20px;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 
 .infos h2,
@@ -245,4 +248,34 @@ body {
 
 .height-paragraphe {
   height: 200px;
+}
+
+/* PAGE CONTACT FORMULAIRE */
+.form-display {
+  display: flex;
+  margin-top: 180px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-display input,
+.form-display textarea {
+  margin: 4px 0px;
+  padding: 18px;
+  font-size: 20px;
+  width: 400px;
+}
+.button-send {
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 23px;
+  min-height: 60px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  transition: box-shadow 0.5s;
+  margin-top: 10px;
 }
