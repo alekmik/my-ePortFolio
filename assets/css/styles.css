@@ -455,6 +455,24 @@ h3 a {
   margin-top: 5px;
 }
 
+@media (1025px <= width <= 1440px) {
+  .photo-profil {
+    margin-left: 250px;
+    height: 350px;
+    width: 350px;
+  }
+  .message-bienvenue h2,
+  .message-bienvenue a {
+    margin-top: 10%;
+  }
+  .welcome {
+    margin-top: 250px;
+  }
+  .footer {
+    margin: 150px 0px 20px;
+  }
+}
+
 /* RESPONSIVE TABLETTE */
 @media (426px <= width <= 834px) {
   /* Index */
