@@ -429,6 +429,27 @@ h3 a {
 }
 /* end of the animation of emoji */
 
+/* Mentions légales */
+.mentions {
+  display: flex;
+  margin: 20px;
+  color: var(--primary-color);
+  font-family: var(--fontText);
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mentions div {
+  margin-top: 30px;
+}
+
+.mentions h3 {
+  color: #7fb4ff;
+}
+.mentions p {
+  margin-top: 5px;
+}
+
 /* RESPONSIVE TABLETTE */
 @media (426px <= width <= 834px) {
   /* Index */
