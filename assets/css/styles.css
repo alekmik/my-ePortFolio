@@ -304,7 +304,7 @@ h3 a {
 }
 
 /* PAGE CONTACT FORMULAIRE */
-.form-display {
+/* .form-display {
   display: flex;
   margin-top: 180px;
   flex-direction: column;
@@ -331,4 +331,45 @@ h3 a {
   width: 180px;
   transition: box-shadow 0.5s;
   margin-top: 10px;
+} */
+
+.email-link {
+  width: 65%;
+  color: var(--primary-color);
+  margin-top: 150px;
+  margin-bottom: 200px;
+  font-family: var(--fontText);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.2em;
+}
+
+.email-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-display p {
+  margin: 65px 0 40px;
+}
+
+.button-contact-me {
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 23px;
+  min-height: 60px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.button-contact-me:hover {
+  background-color: #81b3ff;
 }
