@@ -303,41 +303,11 @@ h3 a {
   height: 200px;
 }
 
-/* PAGE CONTACT FORMULAIRE */
-/* .form-display {
-  display: flex;
-  margin-top: 180px;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form-display input,
-.form-display textarea {
-  margin: 4px 0px;
-  padding: 18px;
-  font-size: 20px;
-  width: 400px;
-}
-.button-send {
-  background-color: #fff;
-  border-radius: 15px;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 23px;
-  min-height: 60px;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  width: 180px;
-  transition: box-shadow 0.5s;
-  margin-top: 10px;
-} */
-
 .email-link {
   width: 65%;
   color: var(--primary-color);
   margin-top: 150px;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
   font-family: var(--fontText);
   display: flex;
   flex-direction: column;
@@ -353,7 +323,7 @@ h3 a {
   align-items: center;
 }
 
-.email-display p {
+.email-display h2 {
   margin: 65px 0 40px;
 }
 
@@ -372,4 +342,80 @@ h3 a {
 
 .button-contact-me:hover {
   background-color: #81b3ff;
+}
+
+/* background animation css */
+.bg {
+  background: #001240;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2000;
+}
+
+.bg-area li {
+  position: absolute;
+  list-style: none;
+  bottom: -150px;
+  left: 5%;
+  font-size: 5rem;
+  animation: spin 16s linear infinite;
+}
+
+.bg-area li:nth-child(1) {
+  left: 0%;
+  animation-delay: 2s;
+  animation-duration: 15s;
+}
+
+.bg-area li:nth-child(3) {
+  left: 20%;
+  animation-delay: 4s;
+}
+
+.bg-area li:nth-child(4) {
+  left: 30%;
+  animation-delay: 2s;
+}
+
+.bg-area li:nth-child(5) {
+  left: 40%;
+  animation-delay: 6s;
+  animation-duration: 30s;
+}
+
+.bg-area li:nth-child(6) {
+  left: 50%;
+  animation-delay: 2s;
+}
+
+.bg-area li:nth-child(7) {
+  left: 60%;
+  animation-delay: 3s;
+}
+
+.bg-area li:nth-child(8) {
+  left: 70%;
+  animation-delay: 4s;
+  animation-duration: 25s;
+}
+
+.bg-area li:nth-child(9) {
+  left: 80%;
+  animation-delay: 8s;
+  animation-duration: 30s;
+}
+
+.bg-area li:nth-child(10) {
+  left: 90%;
+  animation-delay: 1s;
+}
+
+@keyframes spin {
+  100% {
+    transform: translateY(-800px) rotate(360deg);
+    opacity: 0;
+  }
 }
