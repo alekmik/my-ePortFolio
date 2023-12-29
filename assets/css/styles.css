@@ -134,6 +134,11 @@ body {
   transition: box-shadow 0.25s;
 }
 
+.gris {
+  background-color: #6e6e6e;
+  color: #333;
+}
+
 .button-style:hover {
   background-color: #001240;
   border-color: #fff;
