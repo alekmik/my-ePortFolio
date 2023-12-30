@@ -465,11 +465,14 @@ h3 a {
   .message-bienvenue a {
     margin-top: 10%;
   }
+  .email-link{
+    margin-top:200px;
+  }
   .welcome {
     margin-top: 250px;
   }
-  .footer {
-    margin: 150px 0px 20px;
+  .contact-foo {
+    margin: 350px 0px 20px;
   }
 }
 
