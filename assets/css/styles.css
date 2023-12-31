@@ -455,7 +455,7 @@ h3 a {
   margin-top: 5px;
 }
 
-@media (1025px <= width <= 1640px) {
+@media (1025px <= width <= 2000px) {
   .photo-profil {
     margin-left: 250px;
     height: 350px;
@@ -465,11 +465,14 @@ h3 a {
   .message-bienvenue a {
     margin-top: 10%;
   }
+  .email-link{
+    margin-top:200px;
+  }
   .welcome {
     margin-top: 250px;
   }
-  .footer {
-    margin: 150px 0px 20px;
+  .contact-foo {
+    margin: 350px 0px 20px;
   }
 }
 
