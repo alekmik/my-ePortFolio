@@ -465,8 +465,8 @@ h3 a {
   .message-bienvenue a {
     margin-top: 10%;
   }
-  .email-link{
-    margin-top:200px;
+  .email-link {
+    margin-top: 200px;
   }
   .welcome {
     margin-top: 250px;
@@ -519,7 +519,7 @@ h3 a {
 }
 
 /* RESPONSIVE MOBILE */
-@media (1px <= width <= 425px) {
+@media (1px <= width <= 661px) {
   /* hide large navbar */
   .navbarLink {
     display: none;
