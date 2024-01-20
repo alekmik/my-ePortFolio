@@ -1,3 +1,3 @@
 # my-ePortFolio 💻
 
-<a href="https://alek-mikolajek.netlify.app/">Lien du site web</a>
+<a href="https://alek-mikolajek.netlify.app/" target="_blank">Lien du site web</a>
