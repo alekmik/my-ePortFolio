@@ -12,7 +12,12 @@
 }
 
 body {
-  background: rgb(0, 18, 64);
+  background: rgb(0, 47, 168);
+  background: radial-gradient(
+    circle,
+    rgb(4, 31, 100) 75%,
+    rgba(0, 19, 63, 1) 100%
+  );
 }
 
 .header {
@@ -25,7 +30,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  background-color: #001240;
+  background-color: #00124000;
 }
 
 .logo img {
@@ -359,7 +364,12 @@ h3 a {
 
 /* background animation css */
 .bg {
-  background: #001240;
+  background: rgb(0, 23, 80);
+  background: radial-gradient(
+    circle,
+    rgb(4, 31, 100) 75%,
+    rgba(0, 19, 63, 1) 100%
+  );
   position: fixed;
   left: 0;
   top: 0;
