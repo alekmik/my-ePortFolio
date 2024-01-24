@@ -484,7 +484,7 @@ h3 a {
   }
 
   .welcome {
-    margin-top: 145px;
+    margin-top: 40%;
   }
 
   .photo-profil {
@@ -515,6 +515,10 @@ h3 a {
   /* Contact */
   .email-link {
     margin-bottom: 185px;
+  }
+
+  .footer {
+    margin-top: 150px;
   }
 }
 
@@ -612,7 +616,8 @@ h3 a {
     margin-top: 150px;
   }
   .photo-profil {
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
     width: 200px;
   }
