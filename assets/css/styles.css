@@ -183,9 +183,9 @@ body {
 .infos p,
 .competences ul,
 .exp h3,
-.hobbies ul,
+a .hobbies ul,
 .card-content p {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   line-height: 2em;
   padding: 28px;
 }
