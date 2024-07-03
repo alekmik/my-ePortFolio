@@ -2,7 +2,7 @@
   --primary-color: #fff;
   --secondary-color: #001240;
   --third-color: #ffd961;
-  --fontText: "Geneva", sans-serif;
+  --fontText: "Gill Sans", sans-serif;
 }
 
 * {
@@ -12,7 +12,8 @@
 }
 
 body {
-  background: rgb(5, 33, 107);
+  /* background: rgb(5, 33, 107); */
+  background: var(--secondary-color);
 }
 
 .header {
@@ -25,7 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  background: rgb(5, 33, 107);
+  background: var(--secondary-color);
 }
 
 .logo img {
