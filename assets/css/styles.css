@@ -3,6 +3,7 @@
   --secondary-color: #001240;
   --third-color: #ffd961;
   --fontText: "Gill Sans", sans-serif;
+  --fontVar: "Gill Sans", sans-serif;
 }
 
 * {
@@ -362,7 +363,7 @@ h3 a {
 
 /* background animation css */
 .bg {
-  background: rgb(5, 33, 107);
+  background: var(--secondary-color);
   position: fixed;
   left: 0;
   top: 0;
