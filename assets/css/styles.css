@@ -2,7 +2,8 @@
   --primary-color: #fff;
   --secondary-color: #004190;
   --third-color: #ffd961;
-  --fontText: "Montserrat", sans-serif;
+  --fontTitle: "Montserrat", sans-serif;
+  --fontText: "Lato", sans-serif;
 }
 
 * {
@@ -107,7 +108,7 @@ body {
   flex-direction: column;
 }
 .message-bienvenue h1 {
-  font-family: var(--fontText);
+  font-family: var(--fontTitle);
   font-size: 2em;
 }
 
@@ -116,7 +117,7 @@ body {
 }
 
 .message-bienvenue h2 {
-  font-family: var(--fontText);
+  font-family: var(--fontTitle);
   font-size: 1.2em;
 }
 
@@ -274,7 +275,7 @@ h3 a {
   margin-top: 125px;
   margin-bottom: 50px;
   color: var(--primary-color);
-  font-family: var(--fontText);
+  font-family: var(--fontTitle);
 }
 
 .card-content {
