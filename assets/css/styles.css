@@ -190,6 +190,10 @@ a .hobbies ul,
   padding: 28px;
 }
 
+.link-color {
+  color: #fff;
+}
+
 .card-style {
   margin: 50px;
   padding: 20px;
